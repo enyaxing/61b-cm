@@ -18,7 +18,7 @@ private int hashfunc(K key) {
 ```
 
 ### Resize
-To resize, first double `numBuckets, and then re-insert every node
+To resize, first double `numBuckets`. We have to keep track of every element that's already in the hashtable, and we can use a temp variable for that. We then initialize `null` chains for each bucket, and re-insert every elemnt that was in the original hashtable.
 ```
 // resize
 if ((numElements+1)/numBuckets > maxLoad) {
