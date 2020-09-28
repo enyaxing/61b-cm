@@ -54,7 +54,7 @@ class HashTable<String, V> {
 
             for (int i = 0; i < numBuckets; i++) {
                 ____________; 
-  	}
+  	        }
 
             for (HashNode<String, V> headNode : ____) { 
                 while (_________) { 
