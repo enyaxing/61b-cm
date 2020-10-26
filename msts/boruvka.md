@@ -4,7 +4,7 @@
 
 #### In the two iterations below, each step resembles either Prim's or Kruskal's algorithm. Identify which step corresponds with each algorithm.
 
-[Boruvka Example]: https://github.com/EthanYeh/61b-cm-fa20/blob/master/msts/Boruvka-example.png
+![Boruvka Example](https://github.com/EthanYeh/61b-cm-fa20/blob/master/msts/Boruvka-example.png)
 
 #### Solution:
 
