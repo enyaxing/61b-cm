@@ -1,10 +1,10 @@
 # Boruvka's Algorithm
 
-#### Boruvka's algorithm is another algorithm that can be used to find the MST in a graph. It works by adding the minimum weight edge out of every vertex to a forest such that there are two sub-trees. Then, it finds the minimum weight edge across the cut and adds it to the forest. This reduces our forest to one tree, which is the MST we are looking for.
+#### Boruvka's algorithm is another algorithm that can be used to find the MST in a graph. It works by adding the minimum weight edge out of every vertex to a forest such that there are two sub-trees, one containing edges in the MST-so-far and another containing the rest of the edges in the graph. Then, it finds the minimum weight edge across the cut and adds it to the forest. In this way, Boruvka's algorithm uses the cut property to reduce our forest to one tree, which is the MST we are looking for.
 
 #### In the two iterations below, each step resembles either Prim's or Kruskal's algorithm. Identify which step corresponds with each algorithm.
 
-![Boruvka Example](https://github.com/EthanYeh/61b-cm-fa20/blob/master/msts/Boruvka-example.png)
+![Boruvka Example](https://github.com/EthanYeh/61b-cm-fa20/blob/master/graphs/msts/Boruvka-example.png)
 
 #### Solution:
 
