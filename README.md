@@ -1,2 +1,2 @@
-# 61b-cm-fa20
+# 61b-cm
 Code for new CSM 61B problems woo
